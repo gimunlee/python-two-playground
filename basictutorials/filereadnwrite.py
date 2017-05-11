@@ -6,6 +6,6 @@ print ALICE_LINES
 ALICE.close()
 
 OUTPUT = open('./output.txt', 'w')
-OUTPUT.writelines(['abc','cdc'])
+OUTPUT.writelines(['abc', 'cdc'])
 OUTPUT.writelines(ALICE_LINES)
 OUTPUT.close()
