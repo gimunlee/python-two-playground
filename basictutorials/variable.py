@@ -1,18 +1,18 @@
 """ variables tutorial """
-x = 5
-y = 'red'
-y2 = "red"
+X = 5
+Y = 'red'
+Y2 = "red"
 
-print y
-print y2
-print '%s and %s are same? : %s %s' % (y, y2, y == y2, y is y2)
+print Y
+print Y2
+print '%s and %s are same? : %s %s' % (Y, Y2, Y == Y2, Y is Y2)
 print (3, 4)
 print 3, 4
 print '%d' % 1
-a = [1]
-b = a
-print a == b
-print a is b
-c = a[:]
-print a == c
-print a is c
+A = [1]
+B = A
+print A == B
+print A is B
+C = A[:]
+print A == C
+print A is C
