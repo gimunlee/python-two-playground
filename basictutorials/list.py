@@ -1,23 +1,23 @@
 """ List tutorials """
 def main():
     """Test code"""
-    li = [3, 2, 6]
-    tail_li = [4, 5]
+    lis = [3, 2, 6]
+    tail_lis = [4, 5]
 
     #li.append(tailli)
-    li.extend(tail_li)
+    lis.extend(tail_lis)
 
-    print li
+    print lis
     help(len)
     print dir(list)
     help(list.__add__)
 
-    print sorted(li)
-    print li
-    li.reverse()
-    print li
-    li.sort()
-    print li
+    print sorted(lis)
+    print lis
+    lis.reverse()
+    print lis
+    lis.sort()
+    print lis
 
     #List comprehension
     wood = 'How much wood would a woodchuck chuck if a woodchuck could chuck wood?'.split()

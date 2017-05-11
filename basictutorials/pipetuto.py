@@ -1,11 +1,15 @@
 """ pipe tutorial """
-
 import os
 
-LISTING_CWD_CONTENT = 'dir'
-fp = os.popen(LISTING_CWD_CONTENT)
-print fp
-RESPONSE = fp.read()
-stat = fp.close()
-print RESPONSE
-print stat
+def main():
+    """test code"""
+    listing_cwd_content = 'dir'
+    filep = os.popen(listing_cwd_content)
+    print filep
+    response = filep.read()
+    stat = filep.close()
+    print response
+    print stat
+
+if __name__ == "__main__":
+    main()
