@@ -10,18 +10,22 @@ class Class1(object):
     """Test class 1"""
     sharedList = []
     func = func1
-    def gunc(self):
+    @staticmethod
+    def gunc():
         """Says hello g"""
         return 'hello g'
     hunc = gunc
     def __init__(self, left, right):
         self.body = left + right
         self.sharedList.append(time())
-    def __private_method(self):
+    @staticmethod
+    def __private_method():
         """A private method"""
         print 'private'
 class Dlass(Class1):
-    def __private_method(self):
+    """Test class 2"""
+    @staticmethod
+    def __private_method():
         """A private method"""
         print 'private'
 
