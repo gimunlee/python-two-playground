@@ -39,5 +39,11 @@ def main():
     tuple1 = tuple((x + 1 for x in range(3)))
     print tuple1
 
+    print any([0, 0, 1])
+    print any([0, 0, False])
+
+    print all([0, 1, 1])
+    print all([True, 1])
+
 if __name__ == "__main__":
     main()
